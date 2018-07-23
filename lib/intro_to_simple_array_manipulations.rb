@@ -30,4 +30,6 @@ def shift_with_args(array, 2)
     array.shift()
     counter += 1
   end
+
+  return array
 end
