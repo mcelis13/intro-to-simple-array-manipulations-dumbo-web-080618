@@ -11,13 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  counter = 0
-  while counter < 2
-    array.pop()
-    counter += 1
-  end
-
-  return array
+    return array.pop(2)
 end
 
 myArray = ['maddie', 'jeff', 'regina', 'victor']
