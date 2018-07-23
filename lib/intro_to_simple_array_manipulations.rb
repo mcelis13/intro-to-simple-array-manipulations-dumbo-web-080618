@@ -19,6 +19,7 @@ def pop_with_args(array)
 
   return array
 end
+
 myArray = ['maddie', 'jeff', 'regina', 'victor']
 puts pop_with_args(myArray)
 
@@ -27,13 +28,7 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-  counter = 0
-  while counter < 2
-    array.shift()
-    counter += 1
-  end
-
-  return array
+    return array.shift(2)
 end
 
 def using_concat(array1, array2)
