@@ -26,7 +26,7 @@ end
 
 def shift_with_args(array)
   counter = 0
-  while counter < num
+  while counter < 2
     array.shift()
     counter += 1
   end
