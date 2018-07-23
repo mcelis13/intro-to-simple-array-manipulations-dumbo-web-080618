@@ -19,6 +19,8 @@ def pop_with_args(array)
 
   return array
 end
+myArray = ['maddie', 'jeff', 'regina', 'victor']
+puts pop_with_args()
 
 def using_shift(array)
   return array.shift()
