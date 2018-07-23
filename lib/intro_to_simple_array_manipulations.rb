@@ -33,3 +33,7 @@ def shift_with_args(array, 2)
 
   return array
 end
+
+def using_concat(array1, array2)
+  
+end
