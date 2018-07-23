@@ -10,9 +10,9 @@ def using_pop(array)
   return array.pop()
 end
 
-def pop_with_args(array, num)
+def pop_with_args(array)
   counter = 0
-  while counter < num
+  while counter < 2
     array.pop()
     counter += 1
   end
