@@ -14,9 +14,6 @@ def pop_with_args(array)
     return array.pop(2)
 end
 
-myArray = ['maddie', 'jeff', 'regina', 'victor']
-puts pop_with_args(myArray)
-
 def using_shift(array)
   return array.shift()
 end
