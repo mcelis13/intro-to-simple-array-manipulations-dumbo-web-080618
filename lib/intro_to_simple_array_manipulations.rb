@@ -38,3 +38,6 @@ def using_concat(array1, array2)
   newArray = array1.concat(array2)
   return newArray
 end
+
+def using_insert(array, element)
+end
