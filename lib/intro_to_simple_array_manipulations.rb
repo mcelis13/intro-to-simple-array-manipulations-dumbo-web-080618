@@ -24,9 +24,9 @@ def using_shift(array)
   return array.shift()
 end
 
-def shift_with_args(array, 2)
+def shift_with_args(array, num)
   counter = 0
-  while counter < 2
+  while counter < num
     array.shift()
     counter += 1
   end
